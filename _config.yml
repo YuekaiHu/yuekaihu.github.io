@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yuekai HU | Coastal Ecosystem Remote Sensing & GeoAI"
+title                    : "Yuekai HU"
 title_separator          : "-"
 name                     : &name "Yuekai Hu"
 description              : &description "Academic portfolio of Yuekai Hu: coastal ecosystem remote sensing, wetland dynamics, and GeoAI"
@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Research Fellow specializing in coastal ecosystem remote sensing and GeoAI."
   location         : "Shanghai, China"
-  employer         : "State Key Laboratory of Estuarine and Coastal Research, East China Normal University"
+  employer         : "SKLEC, ECNU"
   uri              : "http://www.sklec.ecnu.edu.cn/Staff/HuYuekai"
   email            : "yuekaihu0108@gmail.com"
 

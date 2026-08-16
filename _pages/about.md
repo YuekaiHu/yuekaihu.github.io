@@ -9,17 +9,7 @@ redirect_from:
 
 Yuekai Hu is a Postdoctoral Research Fellow at the **State Key Laboratory of Estuarine and Coastal Research (SKLEC), East China Normal University (ECNU)**. His research investigates the evolution of coastal wetlands through spatiotemporal data and multi-source Earth observations, with a particular focus on salt marshes, tidal flats, shorelines, and mangrove ecosystems.
 
-He develops interpretable, transferable, and operational GeoAI methods for long-term ecosystem mapping, change detection, and restoration monitoring. His current research includes intelligent identification of coastal wetlands, monitoring ecosystem evolution, tracking *Spartina alterniflora* invasion, removal, and reinvasion, and large-scale mapping driven by multi-source remote sensing data.
-
 [SKLEC Profile](http://www.sklec.ecnu.edu.cn/Staff/HuYuekai){: .btn .btn--primary } [Google Scholar](https://scholar.google.com/citations?hl=en&user=_2qdRy8AAAAJ){: .btn } [ORCID](https://orcid.org/0000-0003-1549-7622){: .btn }
-
-## Research Interests
-
-- Coastal ecosystem remote sensing and GeoAI
-- Long-term mapping of salt marshes, tidal flats, shorelines, and mangroves
-- Coastal wetland evolution, restoration, and ecological assessment
-- *Spartina alterniflora* invasion, removal, and reinvasion monitoring
-- Multi-source satellite time series and large-scale intelligent mapping
 
 ## Education
 
@@ -30,6 +20,18 @@ Shanghai, China · September 2019–December 2025
 **B.Sc. in Geographic Information Science**<br>
 College of Science, Hangzhou Normal University<br>
 Hangzhou, China · September 2014–July 2019
+
+<div class="home-interests" markdown="1">
+
+## Research Interests
+
+- Coastal ecosystem remote sensing and GeoAI
+- Long-term coastal ecosystem mapping
+- Wetland evolution, restoration, and ecological assessment
+- *Spartina alterniflora* dynamics and monitoring
+- Multi-source satellite time series and intelligent mapping
+
+</div>
 
 ## Academic Experience
 

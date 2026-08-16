@@ -5,7 +5,11 @@ permalink: /research/
 author_profile: true
 ---
 
-My research integrates multi-source Earth observation, long-term satellite time series, spatial analysis, and GeoAI to understand the dynamics of coastal and wetland ecosystems. I focus on developing interpretable, transferable, and operational methods for large-scale ecosystem mapping, change detection, ecological assessment, and restoration monitoring.
+<div class="research-page" markdown="1">
+
+My research integrates multi-source Earth observation, long-term satellite time series, spatial analysis, and GeoAI to understand the dynamics of coastal and wetland ecosystems across local to national scales.
+
+I develop interpretable, transferable, and operational GeoAI methods for long-term ecosystem mapping, change detection, and restoration monitoring. My current research includes intelligent identification of coastal wetlands, monitoring ecosystem evolution, tracking *Spartina alterniflora* invasion, removal, and reinvasion, and large-scale mapping driven by multi-source remote sensing data.
 
 ## Research Themes
 
@@ -23,6 +27,8 @@ Integration of SAR, optical imagery, ocean-colour data, meteorological observati
 
 ## Featured Ongoing Research
 
+<section class="research-card research-card--ongoing" markdown="1">
+
 ### National-scale monitoring of tidal-flat dynamics
 
 This research develops an efficient and reproducible framework for mapping tidal flats along the coast of China using long-term Landsat observations. The workflow automatically identifies low-tide imagery and integrates knowledge-based rules to reduce interference from clouds, waves, and tidal variability.
@@ -31,7 +37,11 @@ The resulting time-series dataset reveals major tidal-flat dynamics in the Liaoh
 
 [View EGU 2024 Abstract](https://meetingorganizer.copernicus.org/EGU24/EGU24-4146.html){: .btn .btn--primary }
 
-## Research Projects
+</section>
+
+## Completed Research Projects
+
+<section class="research-card research-card--completed" markdown="1">
 
 ### National-scale mapping of coastal salt marshes
 
@@ -42,6 +52,10 @@ The study mapped approximately 127,477 ha of salt marshes and distinguished four
 `Salt marsh` · `Sentinel-1` · `SAR` · `Time series` · `National mapping`  
 [View Paper](https://doi.org/10.1016/j.isprsjprs.2021.01.003){: .btn }
 
+</section>
+
+<section class="research-card research-card--completed" markdown="1">
+
 ### Monitoring suspended sediment through a complete tidal cycle
 
 This study used high-frequency GOCI observations to investigate tidal-driven variations in suspended sediment concentration in Hangzhou Bay. An empirical remote-sensing model was developed using field measurements and hourly satellite imagery.
@@ -50,6 +64,10 @@ The results characterized the spatial and temporal response of suspended sedimen
 
 `Suspended sediment` · `GOCI` · `Hangzhou Bay` · `Tidal dynamics`  
 [View Paper](https://doi.org/10.1016/j.jag.2019.101920){: .btn }
+
+</section>
+
+<section class="research-card research-card--completed" markdown="1">
 
 ### Remote sensing of photovoltaic infrastructure in coastal China
 
@@ -60,6 +78,10 @@ The random-forest framework achieved an overall accuracy of 96.9% and identified
 `Photovoltaics` · `Sentinel-1/2` · `Random forest` · `Coastal provinces`  
 [View Paper](https://doi.org/10.1016/j.jag.2023.103280){: .btn }
 
+</section>
+
+<section class="research-card research-card--completed" markdown="1">
+
 ### Long-term ecological assessment of China's Ramsar sites
 
 This study assessed ecological change across China's Ramsar sites using 36 years of dense Landsat observations. Seven indicators representing vegetation condition, hydrological dynamics, and anthropogenic disturbance were integrated into a national ecological assessment framework.
@@ -68,6 +90,10 @@ More than half of the evaluated sites showed long-term ecological degradation, w
 
 `Ramsar sites` · `Landsat` · `Ecological assessment` · `Change detection`  
 [View Paper](https://doi.org/10.1016/j.ecolind.2023.110159){: .btn }
+
+</section>
+
+<section class="research-card research-card--completed" markdown="1">
 
 ### Economic drivers of coastal-wetland change
 
@@ -78,6 +104,10 @@ The results reveal distinct responses among natural and artificial wetlands and 
 `Coastal wetlands` · `Socioeconomic drivers` · `Reclamation` · `East China Sea`  
 [View Paper](https://doi.org/10.1016/j.apgeog.2023.102995){: .btn }
 
+</section>
+
+<section class="research-card research-card--completed" markdown="1">
+
 ### GeoAI recognition of salt-marsh fairy circles
 
 This study developed a generalizable GeoAI framework for recognizing and counting salt-marsh fairy circles from conventional high-resolution RGB satellite imagery.
@@ -86,6 +116,10 @@ The framework combines zero-shot Segment Anything Model segmentation, tailored s
 
 `Salt-marsh fairy circles` · `GeoAI` · `SAM` · `Bayesian fusion` · `Deep learning`  
 [View Paper](https://doi.org/10.1016/j.jag.2026.105101){: .btn }
+
+</section>
+
+<section class="research-card research-card--completed" markdown="1">
 
 ### Remote sensing of agricultural disruption in conflict zones
 
@@ -96,6 +130,10 @@ The framework provides a scalable approach for assessing agricultural disruption
 `Agricultural systems` · `Conflict` · `Sunflower` · `Time-series mapping`  
 [View Paper](https://doi.org/10.1016/j.agsy.2026.104636){: .btn }
 
+</section>
+
+<section class="research-card research-card--completed" markdown="1">
+
 ### Rainy-season onset over the Qinghai–Tibet Plateau
 
 This study investigated the spatial and temporal variability of rainy-season onset over the Qinghai–Tibet Plateau using daily precipitation observations from 106 meteorological stations between 1971 and 2015.
@@ -104,3 +142,7 @@ The analysis identified a clear southeast-to-northwest progression of rainy-seas
 
 `Rainy-season onset` · `Qinghai–Tibet Plateau` · `Climate variability`  
 [View Paper](https://doi.org/10.3390/w11101960){: .btn }
+
+</section>
+
+</div>

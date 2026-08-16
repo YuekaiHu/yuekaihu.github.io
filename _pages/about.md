@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# Yuekai HU
-
 Yuekai Hu is a Postdoctoral Research Fellow at the **State Key Laboratory of Estuarine and Coastal Research (SKLEC), East China Normal University (ECNU)**. His research investigates the evolution of coastal wetlands through spatiotemporal data and multi-source Earth observations, with a particular focus on salt marshes, tidal flats, shorelines, and mangrove ecosystems.
 
 He develops interpretable, transferable, and operational GeoAI methods for long-term ecosystem mapping, change detection, and restoration monitoring. His current research includes intelligent identification of coastal wetlands, monitoring ecosystem evolution, tracking *Spartina alterniflora* invasion, removal, and reinvasion, and large-scale mapping driven by multi-source remote sensing data.

@@ -5,32 +5,31 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>You can also find my articles on <a href="https://scholar.google.com/citations?hl=en&amp;user=_2qdRy8AAAAJ">Google Scholar</a>.</p>
 
-{% include base_path %}
+<h2>Journal Articles</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<ol reversed>
+  <li><strong>Qiu, J., Hu, Y.,</strong> Peng, D., Liu, H., Tao, W., Xie, B., Hu, T., Wang, J., Liang, X., Chen, T., &amp; Xu, J. (2026). <a href="https://doi.org/10.1016/j.agsy.2026.104636">Analyzing the disruption of agricultural systems by conflict: A case study of sunflower production in eastern Ukraine</a>. <em>Agricultural Systems</em>, 233, 104636.</li>
+  <li>Yang, J., Zheng, H., Sun, W., <strong>Hu, Y.,</strong> Zhang, W., Chen, C., Zhou, Y., Cheng, H., Xie, W., &amp; Tan, K. (2026). <a href="https://doi.org/10.1016/j.jag.2026.105101">Recognition of salt-marsh fairy circles in conventional optical satellite imagery: A generalizable framework with multiple machine learning models and imbalanced Bayesian probability updating</a>. <em>International Journal of Applied Earth Observation and Geoinformation</em>, 146, 105101.</li>
+  <li>Jiang, W., Tian, B., Duan, Y., Chen, C., &amp; <strong>Hu, Y.</strong> (2023). <a href="https://doi.org/10.1016/j.jag.2023.103280">Rapid mapping and spatial analysis on the distribution of photovoltaic power stations with Sentinel-1&amp;2 images in Chinese coastal provinces</a>. <em>International Journal of Applied Earth Observation and Geoinformation</em>, 118, 103280.</li>
+  <li>Fan, H., <strong>Hu, Y.,</strong> Tian, B., Duan, Y., &amp; Xue, C. (2023). <a href="https://doi.org/10.1016/j.ecolind.2023.110159">Long-term ecological changes in China's Ramsar sites</a>. <em>Ecological Indicators</em>, 149, 110159.</li>
+  <li>Ai, S., <strong>Hu, Y.,</strong> Li, J., Tian, P., Pu, R., Liu, Y., &amp; Fan, H. (2023). <a href="https://doi.org/10.1016/j.apgeog.2023.102995">Tracking economic-driven coastal wetland change along the East China Sea</a>. <em>Applied Geography</em>, 156, 102995.</li>
+  <li><strong>Hu, Y.,</strong> Tian, B., Yuan, L., Li, X., Huang, Y., Shi, R., Jiang, X., Wang, L., &amp; Sun, C. (2021). <a href="https://doi.org/10.1016/j.isprsjprs.2021.01.003">Mapping coastal salt marshes in China using time series of Sentinel-1 SAR</a>. <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, 173, 122–134.</li>
+  <li><strong>Hu, Y.,</strong> Yu, Z., Zhou, B., Li, Y., Yin, S., He, X., Peng, X., &amp; Shum, C. K. (2019). <a href="https://doi.org/10.1016/j.jag.2019.101920">Tidal-driven variation of suspended sediment in Hangzhou Bay based on GOCI data</a>. <em>International Journal of Applied Earth Observation and Geoinformation</em>, 82, 101920.</li>
+  <li><strong>Hu, Y.,</strong> Xu, J., Huang, Y., Zhou, Y., Pang, Y., Shi, Z., &amp; Chen, X. (2019). <a href="https://doi.org/10.3390/w11101960">Spatial and temporal variations in the rainy season onset over the Qinghai–Tibet Plateau</a>. <em>Water</em>, 11(10), 1960.</li>
+</ol>
 
+<h2>Patents / 发明专利</h2>
 
+<h3>1. A method for large-scale classification of intertidal vegetation using synthetic aperture radar</h3>
+<p><strong>一种基于合成孔径雷达的大尺度潮间带植被分类方法</strong></p>
+<p><strong>Inventors / 发明人：</strong>Yuekai Hu (胡越凯), Bo Tian (田波), Xinyi Zhao (赵欣怡), Yunxuan Zhou (周云轩)<br>
+<strong>Type / 类型：</strong>Chinese Invention Patent / 中国国家发明专利<br>
+<strong>Granted / 授权日期：</strong>21 July 2021 / 2021年7月21日</p>
 
+<h3>2. An intelligent remote-sensing method for large-scale tidal-flat extraction</h3>
+<p><strong>一种潮滩大尺度遥感智能提取方法</strong></p>
+<p><strong>Inventors / 发明人：</strong>Yuekai Hu (胡越凯), Bo Tian (田波), Lin Yuan (袁琳), Chunpeng Chen (陈春鹏), Yuanqiang Duan (段元强)<br>
+<strong>Type / 类型：</strong>Chinese Invention Patent / 中国国家发明专利<br>
+<strong>Granted / 授权日期：</strong>22 July 2025 / 2025年7月22日</p>
